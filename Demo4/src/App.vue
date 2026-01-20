@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -11,15 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
-</template> -->
-
-<script setup>
-import Bai3 from './components/Bai3.vue';
-</script>
-
-<template>
-<Bai3/>
+  <HelloWorld msg="31 - Van Minh Thanh Tai" />
 </template>
 
 <style scoped>
