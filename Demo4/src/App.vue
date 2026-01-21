@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -12,6 +12,13 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="31 - Van Minh Thanh Tai" />
+</template> -->
+
+<script setup>
+import Test1 from './components/Test1.vue';
+</script>
+<template>
+<Test1/>
 </template>
 
 <style scoped>
