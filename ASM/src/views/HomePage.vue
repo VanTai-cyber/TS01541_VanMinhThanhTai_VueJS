@@ -36,10 +36,34 @@ export default {
     return {
       // Dữ liệu giả lập (Mock Data)
       movies: [
-        { id: 1, title: "Mai", genre: "Tình cảm", description: "Bộ phim tình cảm sâu lắng...", image: "https://via.placeholder.com/300x400?text=Poster+Mai" },
-        { id: 2, title: "Đào, Phở và Piano", genre: "Lịch sử", description: "Câu chuyện hào hùng...", image: "https://via.placeholder.com/300x400?text=Poster+Dao+Pho" },
-        { id: 3, title: "Lật Mặt 7", genre: "Gia đình", description: "Một điều ước...", image: "https://via.placeholder.com/300x400?text=Poster+Lat+Mat" },
-        { id: 4, title: "Dune: Part Two", genre: "Viễn tưởng", description: "Cuộc chiến giữa các vì sao...", image: "https://via.placeholder.com/300x400?text=Poster+Dune" },
+        { 
+        id: 1, 
+        title: "Nhà Bà Nữ", 
+        genre: "Gia đình/Hài", 
+        description: "Câu chuyện về những mâu thuẫn thế hệ và áp lực vô hình trong một gia đình bán bánh canh cua.", 
+        image: "https://via.placeholder.com/300x400?text=Poster+Nha+Ba+Nu" 
+    },
+    { 
+        id: 2, 
+        title: "Godzilla x Kong: The New Empire", 
+        genre: "Hành động", 
+        description: "Hai quái thú khổng lồ buộc phải hợp sức để chống lại một mối đe dọa mới từ Trái Đất Rỗng.", 
+        image: "https://via.placeholder.com/300x400?text=Poster+Godzilla+Kong" 
+    },
+    { 
+        id: 3, 
+        title: "Kung Fu Panda 4", 
+        genre: "Hoạt hình", 
+        description: "Gấu Po trở thành Thủ lĩnh Tinh thần và bắt đầu hành trình tìm kiếm người kế thừa danh hiệu Thần Long Đại Hiệp.", 
+        image: "https://via.placeholder.com/300x400?text=Poster+Kung+Fu+Panda" 
+    },
+    { 
+        id: 4, 
+        title: "Exhuma: Quật Mộ Trùng Ma", 
+        genre: "Kinh dị", 
+        description: "Những hiện tượng tâm linh bí ẩn xảy ra khi nhóm pháp sư khai quật một ngôi mộ cổ của gia đình giàu có.", 
+        image: "https://via.placeholder.com/300x400?text=Poster+Exhuma" 
+    }
       ]
     }
   }

@@ -20,13 +20,13 @@ const count = ref(0)
 export default {
   data() {
     return {
-      greeting: "Xin chào bạn!",
+      greeting: "Hello, World!",
       buttonTitle: "Nhấn để thay đổi lời chào",
     };
   },
   methods: {
     changeGreeting() {
-      this.greeting = "Hello, World!";
+      this.greeting = "Xin chào bạn!";
       this.buttonTitle = "Lời chào mới đã được cập nhật";
     },
   },
